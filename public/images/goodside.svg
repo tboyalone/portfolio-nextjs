@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#ee795c"/>
+  <circle cx="1020" cy="145" r="220" fill="#f3bf75"/>
+  <path d="M0 595c200-85 290-90 464-25 173 65 298 30 447-40 116-54 199-60 289-37v307H0z" fill="#f5eee4"/>
+  <path d="M0 674c193-58 296-45 459 17 173 66 367 2 513-37 100-27 158-24 228-3v149H0z" fill="#262b26"/>
+  <rect x="95" y="95" width="508" height="400" rx="18" fill="#faf6ef"/>
+  <rect x="95" y="95" width="508" height="45" rx="18" fill="#e8e1d7"/>
+  <circle cx="124" cy="117" r="6" fill="#ee795c"/>
+  <circle cx="145" cy="117" r="6" fill="#e8b258"/>
+  <circle cx="166" cy="117" r="6" fill="#87a78e"/>
+  <text x="135" y="220" fill="#262b26" font-family="Arial,sans-serif" font-size="54" font-weight="700">A good place</text>
+  <text x="135" y="282" fill="#262b26" font-family="Arial,sans-serif" font-size="54" font-weight="700">to begin.</text>
+  <rect x="135" y="325" width="315" height="12" rx="6" fill="#aaa69d"/>
+  <rect x="135" y="350" width="250" height="12" rx="6" fill="#cbc5ba"/>
+  <rect x="135" y="397" width="122" height="42" rx="21" fill="#ee795c"/>
+  <text x="164" y="424" fill="#262b26" font-family="Arial,sans-serif" font-size="15" font-weight="700">Explore more</text>
+  <text x="790" y="710" fill="#262b26" font-family="Arial,sans-serif" font-size="25" letter-spacing="8">GOOD THINGS GROW HERE</text>
+</svg>

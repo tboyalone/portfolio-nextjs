@@ -1,0 +1,151 @@
+.header {
+  position: relative;
+  z-index: 5;
+  border-bottom: 1px solid var(--color-line);
+  background: rgba(17, 19, 16, 0.96);
+}
+
+.inner {
+  display: flex;
+  min-height: 84px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.brand {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 12px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.brandMark {
+  display: grid;
+  width: 37px;
+  height: 37px;
+  place-items: center;
+  border: 1px solid var(--color-accent);
+  border-radius: 50%;
+  color: var(--color-accent);
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: -0.09em;
+}
+
+.brandName {
+  font-size: 0.95rem;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: clamp(18px, 3vw, 38px);
+}
+
+.navLink {
+  position: relative;
+  padding-block: 8px;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  transition: color 160ms ease;
+}
+
+.navLink:hover,
+.navLinkActive {
+  color: var(--color-text);
+}
+
+.navLinkActive::after {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  height: 2px;
+  background: var(--color-accent);
+  content: "";
+}
+
+.headerCta {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  gap: 12px;
+  padding: 0 14px;
+  border: 1px solid var(--color-line);
+  border-radius: 4px;
+  font-size: 0.83rem;
+  font-weight: 700;
+  transition: border-color 160ms ease, color 160ms ease;
+}
+
+.headerCta span {
+  color: var(--color-accent);
+}
+
+.headerCta:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.menuButton {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .inner {
+    min-height: 72px;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .menuButton {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border: 1px solid var(--color-line);
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .menuButton span {
+    width: 17px;
+    height: 1px;
+    background: var(--color-text);
+  }
+
+  .navigation {
+    display: none;
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0;
+    padding: 4px 0 18px;
+  }
+
+  .navigationOpen {
+    display: flex;
+  }
+
+  .navLink {
+    padding: 12px 0;
+  }
+
+  .navLinkActive::after {
+    right: auto;
+    width: 24px;
+  }
+
+  .headerCta {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#ccd6bc"/>
+  <path d="M0 516 223 280l156 153 212-277 197 252 144-128 268 254v266H0z" fill="#879c7b"/>
+  <path d="m0 624 185-178 176 139 185-170 220 205 171-122 263 175v127H0z" fill="#586f5d"/>
+  <path d="M0 695c152-85 267-65 396-10 146 63 286-27 422-56 162-34 255 12 382 79v92H0z" fill="#354a3c"/>
+  <circle cx="954" cy="155" r="68" fill="#f1ca82"/>
+  <rect x="72" y="72" width="448" height="444" rx="16" fill="#f4f0e5" opacity=".96"/>
+  <text x="112" y="137" fill="#586f5d" font-family="Arial,sans-serif" font-size="16" letter-spacing="5">FIELDNOTES / 04</text>
+  <text x="112" y="230" fill="#25382d" font-family="Georgia,serif" font-size="58" font-weight="700">Find your</text>
+  <text x="112" y="296" fill="#25382d" font-family="Georgia,serif" font-size="58" font-weight="700">way outside.</text>
+  <rect x="112" y="338" width="325" height="11" rx="5" fill="#b6b9aa"/>
+  <rect x="112" y="363" width="270" height="11" rx="5" fill="#c6c8bc"/>
+  <text x="112" y="429" fill="#586f5d" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">READ THE LATEST STORY ↗</text>
+  <path d="M758 420c30-77 56-103 91-120 12 63 0 116-48 151-27 20-46 10-43-31z" fill="#f1ca82"/>
+  <path d="M836 494c42-83 80-112 130-124 3 82-21 143-86 174-36 17-57 2-44-50z" fill="#a5b396"/>
+  <path d="M707 572c81-30 154-56 246-127" fill="none" stroke="#354a3c" stroke-width="9" stroke-linecap="round"/>
+</svg>

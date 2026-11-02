@@ -1,0 +1,85 @@
+.page {
+  padding-top: 92px;
+}
+
+.heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 50px;
+  padding-bottom: 42px;
+}
+
+.heading h1 {
+  margin: 22px 0 0;
+  font-family: var(--font-serif);
+  font-size: clamp(3.7rem, 8vw, 6.4rem);
+  font-weight: 400;
+  letter-spacing: -0.07em;
+  line-height: 0.96;
+}
+
+.heading h1 em {
+  color: var(--color-accent);
+  font-weight: 400;
+}
+
+.heading > p {
+  max-width: 340px;
+  margin: 0 0 8px;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 27px 0 0;
+  color: var(--color-subtle);
+  font-size: 0.78rem;
+}
+
+.note span {
+  color: var(--color-accent);
+}
+
+@media (min-width: 900px) {
+  .grid > :first-child {
+    grid-column: span 2;
+  }
+
+  .grid > :first-child :global(.imageFrame) {
+    aspect-ratio: 2.35;
+  }
+}
+
+@media (max-width: 760px) {
+  .page {
+    padding-top: 66px;
+  }
+
+  .heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 22px;
+  }
+}
+
+@media (max-width: 640px) {
+  .heading h1 {
+    font-size: clamp(3.4rem, 16vw, 5rem);
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 17px;
+  }
+}

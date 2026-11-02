@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#d7d0eb"/>
+  <circle cx="1050" cy="150" r="170" fill="#f2d879"/>
+  <rect x="96" y="88" width="1008" height="626" rx="24" fill="#f7f5f0"/>
+  <rect x="96" y="88" width="230" height="626" rx="24" fill="#292a32"/>
+  <rect x="290" y="88" width="36" height="626" fill="#292a32"/>
+  <circle cx="160" cy="151" r="26" fill="#c2b5e3"/>
+  <text x="201" y="160" fill="#f7f5f0" font-family="Arial,sans-serif" font-size="22" font-weight="700">daymark</text>
+  <rect x="132" y="232" width="155" height="42" rx="12" fill="#44424e"/>
+  <rect x="149" y="248" width="83" height="9" rx="4" fill="#d7d0eb"/>
+  <rect x="149" y="304" width="110" height="8" rx="4" fill="#87838e"/>
+  <rect x="149" y="344" width="95" height="8" rx="4" fill="#87838e"/>
+  <rect x="149" y="384" width="117" height="8" rx="4" fill="#87838e"/>
+  <text x="382" y="167" fill="#292a32" font-family="Arial,sans-serif" font-size="15" letter-spacing="3">MONDAY, 12 MAY</text>
+  <text x="382" y="221" fill="#292a32" font-family="Arial,sans-serif" font-size="38" font-weight="700">Make space for today.</text>
+  <rect x="382" y="269" width="662" height="105" rx="16" fill="#eeeaf6"/>
+  <circle cx="425" cy="322" r="15" fill="none" stroke="#8274a8" stroke-width="3"/>
+  <text x="459" y="317" fill="#292a32" font-family="Arial,sans-serif" font-size="19" font-weight="700">The one important thing</text>
+  <rect x="459" y="334" width="239" height="8" rx="4" fill="#b8b2c5"/>
+  <rect x="382" y="395" width="662" height="105" rx="16" fill="#f0eee7"/>
+  <circle cx="425" cy="448" r="15" fill="none" stroke="#a8a397" stroke-width="3"/>
+  <text x="459" y="443" fill="#292a32" font-family="Arial,sans-serif" font-size="19">A small next step</text>
+  <rect x="459" y="460" width="192" height="8" rx="4" fill="#c9c5ba"/>
+  <rect x="382" y="521" width="662" height="105" rx="16" fill="#f0eee7"/>
+  <circle cx="425" cy="574" r="15" fill="none" stroke="#a8a397" stroke-width="3"/>
+  <text x="459" y="569" fill="#292a32" font-family="Arial,sans-serif" font-size="19">Take a proper break</text>
+  <rect x="459" y="586" width="218" height="8" rx="4" fill="#c9c5ba"/>
+</svg>
